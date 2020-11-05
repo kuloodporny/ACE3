@@ -1,0 +1,16 @@
+name: Headers
+
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the source code
+      uses: actions/checkout@master
+    - name: Validate function headers
+      run: python3 docs/tools/document_functions.py --debug
