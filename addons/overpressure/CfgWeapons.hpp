@@ -51,21 +51,21 @@ class CfgWeapons {
     class CannonCore;
     class cannon_120mm: CannonCore {
         GVAR(priority) = 1;
-        GVAR(angle) = 90;
+        GVAR(angle) = 70;
         GVAR(range) = 50;
         GVAR(damage) = 0.85;
     };
 
     class cannon_125mm: CannonCore {
         GVAR(priority) = 1;
-        GVAR(angle) = 90;
+        GVAR(angle) = 70;
         GVAR(range) = 50;
         GVAR(damage) = 0.85;
     };
 
     class cannon_105mm: CannonCore {
         GVAR(priority) = 1;
-        GVAR(angle) = 90;
+        GVAR(angle) = 70;
         GVAR(range) = 50;
         GVAR(damage) = 0.85;
     };
